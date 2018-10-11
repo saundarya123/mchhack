@@ -6,7 +6,7 @@ import android.os.Bundle
 class Booster : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceStates)
         setContentView(R.layout.activity_booster)
     }
 }
