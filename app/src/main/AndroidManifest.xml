@@ -3,6 +3,8 @@
     package="com.example.saunaryakumar.mchhach">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -23,7 +25,8 @@
         <activity android:name=".Class11" />
         <activity android:name=".UG" />
         <activity android:name=".Booster" />
-        <activity android:name=".Motivate"></activity>
+        <activity android:name=".Motivate">
+        </activity>
     </application>
 
 </manifest>

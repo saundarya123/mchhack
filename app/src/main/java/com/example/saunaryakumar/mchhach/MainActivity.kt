@@ -14,6 +14,8 @@ class MainActivity :  AppCompatActivity() {
     lateinit var button3:Button
     lateinit var button4:Button
     lateinit var button5:Button
+    lateinit var button12:Button
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +27,7 @@ class MainActivity :  AppCompatActivity() {
         button3 = findViewById(R.id.button3)
         button4 = findViewById(R.id.button4)
         button5 = findViewById(R.id.button5)
+        button12 = findViewById(R.id.button12)
 
         button1.setOnClickListener{
             val intent = Intent(this,Class1::class.java)
@@ -50,5 +53,10 @@ class MainActivity :  AppCompatActivity() {
             val intent = Intent(this,Motivate::class.java)
             startActivity(intent)
         }
+        button12.setOnClickListener{
+            val intent = Intent(this,Motivate::class.java)
+            startActivity(intent)
+        }
     }
+
     }
